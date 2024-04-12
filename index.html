@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer</title>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+body{
+    background-image: url(https://cdn.cssauthor.com/wp-content/uploads/2020/01/Black-Panther.jpg?strip=all&lossy=1&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+
+header{
+    width:100%;
+    height:6rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+ 
+    
+}
+nav{
+    width:98%;
+   
+    height:8rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.logo{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.logo img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+ 
+    height: 4rem;
+    width: 50%;
+}
+
+ul li{
+    color: white;
+    margin-right: 50px;
+   
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: all .5s ;
+}
+
+a:hover{
+    color: rgb(202, 198, 198);
+}
+
+section{
+    width: 98%;
+    height: 20Rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    flex-direction: column;
+
+}
+
+section h1{
+    font-size: 35px;
+    font-family: "Norican";
+    font-weight: 500;
+    overflow: hidden;
+    font-style: normal;
+    white-space: nowrap;
+    -webkit-text-stroke: .3px rgb(255, 255, 255);
+     animation: typing 4s steps(80, end) infinite ,blink-cret .75s infinite ;
+     border-right: 5px solid white ;
+}
+
+section p{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: "Norican";
+    color: rgb(133, 125, 125);
+}
+
+@keyframes typing{
+
+    from{width: 0}
+    to{width: 40%;}
+}
+
+@keyframes blink-cret{
+
+    from,to {border-color: transparent}
+     10%{border-color:white;}
+}
+
+
+
+
+.pera1{
+    width: 98%;
+    height: 400px;
+
+    display: flex;
+    justify-content: left;
+    
+    flex-direction:row;
+}
+.pera1 img{
+    height: 350px;
+    width: 350px;
+   border-radius: 10%;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.pera1 p{
+    color: rgb(146, 140, 140);
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+
+.pera2{
+    margin: 0;
+    width: 98%;
+    height: 400px;
+
+    display: flex;
+    justify-content: left;
+    
+    flex-direction: row-reverse;
+}
+
+
+
+.pera2 img{
+    height: 300px;
+    width: 450px;
+    border-radius: 15%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.pera2 p{
+    color: rgb(160, 155, 155);
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    float: left;
+}
+
+
+
+.bx{
+     height: 150px;
+     width: 100%;
+     background-color: rgba(255, 255, 255, 0.041);
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: sans-serif;
+
+}
+
+.bx h2{
+    font-size: 25px;
+}
+
+.social{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.055);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+i{
+    font-size: x-large;
+    transition: all .2s ;
+}
+
+
+#insta:hover{
+    color:purple;
+}
+
+#git:hover{
+    color: rgb(102, 29, 197);
+}
+
+#twit:hover{
+    color: rgb(33, 170, 224);
+}
+#lind:hover{
+    color: rgb(38, 38, 240);
+}
+
+.last{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(189, 178, 178, 0.062);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.last img{
+    height: 250px;
+    width: 200px;
+    margin-bottom: 55px;
+}
+
+.last h2{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px)
+
+{
+
+
+
+    section{
+        max-width: 600px;
+        height: 10rem;
+    }
+
+  section h1{
+    font-size: 20px;
+    max-width: 600px;
+   
+   }
+
+   section p{
+    font-size: 20px;
+    text-align: center;
+   }
+
+   header{
+    max-width:600px ;
+   }
+
+   nav{
+    max-width: 600px;
+   }
+   ul li{
+    margin-right: 20px;
+   }
+
+   ul li a{
+    font-size: 15px;
+   }
+
+   .logo{
+    height: 2.5rem;
+    width: 2.5rem;
+  
+}
+.logo img{
+    height: 2.5rem;
+    width: 2.5rem;
+  
+}
+
+.pera1{
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.pera1 img{
+    width: 100%;
+    height:200px;
+}
+.pera1 p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+.pera2{
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.pera2 img{
+    width: 100%;
+    height: 200px;
+}
+.pera2 p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.bx{
+    margin-top: 60px;
+}
+
+.bx h2{
+    font-size: 15px;
+}
+
+.last h2{
+    font-size: 40px;
+}
+
+}
+@media screen and (max-width:400px)
+
+{
+    ul li a{
+        font-size: 12px;
+       }
+     .logo{
+        height: 2rem;
+        width: 2rem;
+      
+    }
+    .logo img{
+        height: 2rem;
+        width: 2rem;
+      
+    }
+    section{
+        max-width: 340px;
+        height: 10rem;
+    }
+
+  section h1{
+    font-size: 15px;
+    max-width: 400px;
+    color: white;
+    -webkit-text-stroke: none;
+    animation: typing 4s steps(80, end) infinite,blink-cret .75s infinite ;
+   }
+
+   section p{
+    font-size: 15px;
+    text-align: center;
+   }
+
+   @keyframes typing{
+
+    from{width: 0}
+    to{width: 55%;}
+}
+
+
+
+
+.pera1 img{
+    width: 100% ;
+    height: 200px;
+}
+.pera1 p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: left;
+    font-family: sans-serif;
+}
+.pera2 img{
+    margin-top: 40px;
+    width: 100% ;
+    height: 150px;
+
+}
+.pera2 p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.bx{
+    margin-top: -23px;
+}
+
+.last{
+    height: 150px;
+}
+
+.last img{
+    height: 180px;
+    width: 140px;
+    margin-bottom: 30px;
+}
+.last h2{
+    font-size: 25px;
+}
+
+}
+</style>
+
+
+
+
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <img  src="https://images-platform.99static.com/ky8wEq_DEdvfN0l2lmUSfuVYL0g=/0x0:2000x2000/500x500/top/smart/99designs-contests-attachments/107/107446/attachment_107446690" alt="">
+    </div>
+     
+
+  
+
+
+     <nav id="b1">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">About</a></li>
+
+        </ul> 
+    </nav>
+
+</header>
+
+
+<section>
+    <h1> Hello I'm SAMEER SINGH </h1>
+    <br>
+    <p>Hii Everybody I'm a Frontend Web Developer</p>
+</section>
+
+<div class="content">
+
+ <div class="pera1">
+<img class="animate__animated animate__backInLeft" src="https://t4.ftcdn.net/jpg/02/83/46/33/360_F_283463385_mfnrx6RPU3BqObhVuVjYZjeZ5pegE7xq.jpg" alt="">
+
+<p class="animate__animated animate__backInRight">
+    Hello Friends This is <b>Sameer Singh</b> so here I discuse about my whole Journey Starting to till now.
+    <br><br>
+    <b>Introduction :- </b>  I'm BCA student. I Very instred in technology Field, In my childhood I think too Much about how the all tech thigs work.
+    after my 12th I tryed learn about coding and web Developing but yet i did'nt know what is the perpose of coding after some time when I learn little thing of coding then I
+    build My intrest in Coding.
+    <br>
+    And  Now i am learning Web Development in deapth.  
+</p> 
+
+</div>
+
+
+ <div class="pera2">
+
+  
+
+<img  class="animate__animated animate__backInRight" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTArzY3lO8q5ChTUNqKUpYNVXy4YvTkOO0f6mU89MvvoQ&s" alt="">
+
+<p class="animate__animated animate__backInLeft"> 
+    I started my Web Developer Journey in 2023 with HTML its very simpllest language but i learn it first I compleated HTML with <b>KG Coding </b> institute
+    After That I Learn C Programming With <b>Learn and Build </b> Coaching Institute than I properly able to Understand the Coding languages than I learn Java and python's fundamentals
+    but I have intrest in Web Developing so I learn CSS with myself after that learn CSS and HTML than i go for Projects and I build some mini and clone projects.
+    now I will go for JS.  
+</p>
+
+ </div>
+
+
+<div class="bx">
+
+    <h2>Follow Me on These Platforms</h2>
+<div class="social">
+    <a href="https://www.instagram.com/ur_sameer_singh/"><i id="insta" class="fa-brands fa-instagram"></i></a> 
+    <a href="https://github.com/Sameersingh001"><i id="git" class="fa-brands fa-github"></i></a>
+    <a href="https://twitter.com/SameerSing74604"><i id="twit" class="fa-brands fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/sameer-singh-005682276/"><i id="lind" class="fa-brands fa-linkedin"></i></a>
+</div>
+  
+
+</div>
+
+
+
+<div class="last">
+    <img src="Picsart_24-03-31_06-22-31-486.png" alt="">
+<h2>Thank You ! </h2>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+    
+</body>
+</html>
